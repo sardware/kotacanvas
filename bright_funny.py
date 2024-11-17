@@ -33,7 +33,7 @@ def bright_funny(image: np.ndarray) -> np.ndarray:
         x_offset += im.size[0]
 
     # Bright
-    new_img = new_img.point(lambda p: p * 1.5)
+    new_img = new_img.point(lambda p: p * 2)
     return np.asarray(new_img)
 
 
