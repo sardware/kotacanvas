@@ -1,0 +1,11 @@
+# Core ML / audio dependencies
+torch>=2.0.0
+transformers>=4.39.0
+accelerate>=0.27.0
+
+# Audio processing (required by the Hugging Face ASR pipeline)
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Video processing – extract the audio track from MP4
+moviepy>=1.0.3
